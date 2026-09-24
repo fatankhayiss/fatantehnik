@@ -241,9 +241,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .nav-logo {
   display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.nav-logo-img {
+  width: 36px;
+  height: auto;
+}
+.nav-logo-text {
+  display: flex;
   flex-direction: column;
   line-height: 1.1;
-  flex-shrink: 0;
 }
 .nav-logo-name {
   font-family: var(--font-head);
@@ -349,7 +358,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
       rgba(8,18,31,.92) 0%,
       rgba(16,29,44,.80) 50%,
       rgba(20,100,244,.15) 100%),
-    url("../assets/images/hero/hero-main.jpg");
+    url("../assets/images/hero/hero-alt.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -473,6 +482,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     url("../assets/images/hero/hero-alt.jpg");
   background-size: cover;
   background-position: center;
+  transition: background 1s ease-in-out;
 }
 /* Floating stat cards on hero */
 .hero-stats {
@@ -1283,6 +1293,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-direction: column;
   align-items: flex-end;
   gap: 12px;
+  pointer-events: none;
 }
 .floating-wa-tooltip {
   background: #fff;
@@ -1312,6 +1323,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   box-shadow: 0 4px 20px rgba(37,211,102,.45);
   transition: transform var(--transition), box-shadow var(--transition);
   animation: pulse-wa 2.5s ease-in-out infinite;
+  pointer-events: auto;
 }
 .floating-wa-btn:hover {
   transform: scale(1.1);
@@ -1403,4 +1415,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .why-grid { grid-template-columns: 1fr; }
   .project-header { flex-direction: column; align-items: flex-start; }
+}
+
+/* HIDE SCROLLBAR */
+html, body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }

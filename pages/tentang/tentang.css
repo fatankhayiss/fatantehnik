@@ -87,7 +87,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 #navbar { position:sticky; top:0; z-index:1000; background:rgba(255,255,255,.97); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); transition:box-shadow var(--transition); }
 #navbar.scrolled { box-shadow:0 4px 24px rgba(0,0,0,.1); }
 .nav-inner { display:flex; align-items:center; justify-content:space-between; height:72px; gap:24px; }
-.nav-logo { display:flex; flex-direction:column; line-height:1.1; flex-shrink:0; }
+.nav-logo{display:flex;align-items:center;gap:12px;flex-shrink:0;}
+.nav-logo-img{width:36px;height:auto;}
+.nav-logo-text{display:flex;flex-direction:column;line-height:1.1;}
 .nav-logo-name { font-family:var(--font-head); font-size:.92rem; font-weight:900; color:var(--navy); letter-spacing:.06em; text-transform:uppercase; }
 .nav-logo-sub { font-size:.62rem; font-weight:500; color:var(--orange); letter-spacing:.12em; text-transform:uppercase; }
 .nav-menu { display:flex; align-items:center; gap:4px; }
@@ -237,4 +239,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 @media (max-width:479px) {
   .container { padding:0 16px; }
   .workshop-grid { grid-template-columns:1fr; }
+}
+
+/* HIDE SCROLLBAR */
+html, body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
 }
