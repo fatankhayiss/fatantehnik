@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gallery Project Fatan Tehnik Elektro — Lihat hasil pekerjaan service dinamo, rewinding motor, repair trafo, generator, pompa, dan gearbox." />
+  <title>Project — Fatan Tehnik Elektro</title>
+  <link rel="stylesheet" href="project.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231464F4'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='18' font-family='Arial' font-weight='900'>F</text></svg>" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div id="top-bar">
+    <div class="container">
+      <div class="top-bar-inner">
+        <div class="top-bar-left">
+          <a href="https://wa.me/6281310673799" class="top-bar-item" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.549 4.103 1.512 5.831L.057 23.25a.75.75 0 0 0 .914.914l5.516-1.454A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.65-.518-5.157-1.421l-.37-.219-3.83 1.009 1.012-3.744-.236-.386A9.95 9.95 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            +62 813-1067-3799
+          </a>
+        </div>
+        <div class="top-bar-right">
+          <div class="top-bar-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            Senin – Sabtu: 08.00 – 17.00
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="../../index.html" class="nav-logo">
+          <span class="nav-logo-name">Fatan Tehnik Elektro</span>
+          <span class="nav-logo-sub">Electrical • Mechanical • Rewinding</span>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="../../index.html">Beranda</a></li>
+          <li><a href="../tentang/tentang.html">Tentang Kami</a></li>
+          <li><a href="../layanan/layanan.html">Layanan</a></li>
+          <li><a href="project.html" class="active">Project</a></li>
+          <li><a href="../kontak/kontak.html">Kontak</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="https://wa.me/6281310673799?text=Halo%20Fatan%20Tehnik%20Elektro." class="btn btn-orange" target="_blank" rel="noopener">
+            Hubungi Kami
+          </a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="../../index.html">Beranda</a>
+      <a href="../tentang/tentang.html">Tentang Kami</a>
+      <a href="../layanan/layanan.html">Layanan</a>
+      <a href="project.html">Project</a>
+      <a href="../kontak/kontak.html">Kontak</a>
+      <a href="https://wa.me/6281310673799" class="btn btn-orange" target="_blank" rel="noopener">💬 Hubungi Kami</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-inner">
+        <nav class="page-breadcrumb" aria-label="Breadcrumb">
+          <a href="../../index.html">Beranda</a><span>/</span>
+          <span class="current">Project</span>
+        </nav>
+        <h1 class="page-hero-title">Gallery <span style="color:var(--orange)">Project</span></h1>
+        <p class="page-hero-desc">Dokumentasi hasil pekerjaan service, rewinding, repair dan maintenance perangkat electrical &amp; mechanical dari Fatan Tehnik Elektro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILTER & GALLERY -->
+  <section style="background:var(--white); padding:80px 0 100px;">
+    <div class="container">
+
+      <!-- Filter Buttons -->
+      <div class="filter-wrap">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="dinamo">Dinamo</button>
+        <button class="filter-btn" data-filter="rewinding">Rewinding</button>
+        <button class="filter-btn" data-filter="trafo">Trafo</button>
+        <button class="filter-btn" data-filter="generator">Generator</button>
+        <button class="filter-btn" data-filter="pompa">Pompa</button>
+        <button class="filter-btn" data-filter="lainnya">Lainnya</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="gallery-grid">
+
+        <!-- Project items — add real photos by replacing src and keeping data-category -->
+        <div class="gallery-item" data-category="rewinding">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#0f2a4a,#1464F4);">
+              <img src="../../assets/images/projects/project-motor-ac-before.jpg" alt="Rewinding Motor AC 3 Phase"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              </div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Rewinding Motor AC 3 Phase</div>
+              <div class="gallery-cat">Rewinding</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dinamo">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#1a1a0f,#B45309);">
+              <img src="../../assets/images/projects/project-motor-ac-after.jpg" alt="Service Dinamo Industri"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Service Dinamo Industri</div>
+              <div class="gallery-cat">Dinamo</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="trafo">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#0a200a,#15803D);">
+              <img src="../../assets/images/projects/project-rewinding.jpg" alt="Repair Trafo 3 KVA"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Repair Trafo 3 KVA</div>
+              <div class="gallery-cat">Trafo</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="generator">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#200a0a,#9A1515);">
+              <img src="../../assets/images/projects/project-trafo.jpg" alt="Overhaul Generator 5 KW"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Overhaul Generator 5 KW</div>
+              <div class="gallery-cat">Generator</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="pompa">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#0a1a2a,#0369A1);">
+              <img src="../../assets/images/projects/project-generator.jpg" alt="Service Pompa Submersible"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Service Pompa Submersible</div>
+              <div class="gallery-cat">Pompa</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="rewinding">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#1a0a2a,#6D28D9);">
+              <img src="../../assets/images/projects/project-pump.jpg" alt="Rewinding Motor DC"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Rewinding Motor DC</div>
+              <div class="gallery-cat">Rewinding</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="lainnya">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#1a150a,#92400E);">
+              <img src="../../assets/images/projects/project-gearbox.jpg" alt="Repair Gearbox Industri"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Repair Gearbox Industri</div>
+              <div class="gallery-cat">Lainnya</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="dinamo">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#0a1a0a,#166534);">
+              <img src="../../assets/images/projects/project-blower.jpg" alt="Overhaul Dinamo Pompa"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Overhaul Dinamo Pompa</div>
+              <div class="gallery-cat">Dinamo</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="rewinding">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#0f1a3a,#1E40AF);">
+              <img src="../../assets/images/projects/project-motor-dc.jpg" alt="Rewinding Generator"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Rewinding Generator</div>
+              <div class="gallery-cat">Rewinding</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="trafo">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#1a100a,#C2410C);">
+              <img src="../../assets/images/projects/project-motor-ac-after.jpg" alt="Service Trafo Las"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Service Trafo Las</div>
+              <div class="gallery-cat">Trafo</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="pompa">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#1a0a1a,#7E22CE);">
+              <img src="../../assets/images/projects/project-rewinding.jpg" alt="Service Pompa Centrifugal"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Service Pompa Centrifugal</div>
+              <div class="gallery-cat">Pompa</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="lainnya">
+          <div class="gallery-card">
+            <div class="gallery-img" style="background:linear-gradient(135deg,#0a1a1a,#0E7490);">
+              <img src="../../assets/images/projects/project-generator.jpg" alt="Electrical Troubleshooting"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+              <div class="gallery-placeholder" style="display:none;"></div>
+            </div>
+            <div class="gallery-overlay">
+              <div class="gallery-title">Electrical Troubleshooting</div>
+              <div class="gallery-cat">Lainnya</div>
+            </div>
+            <div class="gallery-zoom">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end gallery-grid -->
+
+      <!-- No results message -->
+      <div id="no-results" style="display:none; text-align:center; padding:60px 0; color:var(--text-sec);">
+        <p>Tidak ada project ditemukan untuk kategori ini.</p>
+      </div>
+
+      <!-- CTA bottom -->
+      <div style="text-align:center; margin-top:64px;">
+        <p style="color:var(--text-sec); margin-bottom:20px;">Ingin menjadi bagian dari project kami berikutnya?</p>
+        <a href="https://wa.me/6281310673799?text=Halo%20Fatan%20Tehnik%20Elektro%2C%20saya%20ingin%20konsultasi%20mengenai%20perbaikan%20mesin%20saya." class="btn btn-primary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.549 4.103 1.512 5.831L.057 23.25a.75.75 0 0 0 .914.914l5.516-1.454A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.65-.518-5.157-1.421l-.37-.219-3.83 1.009 1.012-3.744-.236-.386A9.95 9.95 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Konsultasi via WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand-name">Fatan Tehnik Elektro</div>
+          <div class="footer-brand-tag">Electrical • Mechanical • Rewinding</div>
+          <p class="footer-desc">Fatan Tehnik Elektro melayani service dan repair berbagai jenis dinamo serta perangkat electrical dan mechanical.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Navigasi</div>
+          <nav class="footer-links">
+            <a href="../../index.html">Beranda</a>
+            <a href="../tentang/tentang.html">Tentang Kami</a>
+            <a href="../layanan/layanan.html">Layanan</a>
+            <a href="project.html">Project</a>
+            <a href="../kontak/kontak.html">Kontak</a>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Layanan</div>
+          <nav class="footer-links">
+            <a href="../layanan/layanan.html">Service Dinamo</a>
+            <a href="../layanan/layanan.html">Rewinding</a>
+            <a href="../layanan/layanan.html">Service Trafo</a>
+            <a href="../layanan/layanan.html">Generator</a>
+            <a href="../layanan/layanan.html">Pompa</a>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Hubungi Kami</div>
+          <div class="footer-contact-items">
+            <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.549 4.103 1.512 5.831L.057 23.25a.75.75 0 0 0 .914.914l5.516-1.454A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.65-.518-5.157-1.421l-.37-.219-3.83 1.009 1.012-3.744-.236-.386A9.95 9.95 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg><a href="https://wa.me/6281310673799" style="color:inherit;">+62 813-1067-3799</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">&copy; 2026 Fatan Tehnik Elektro. All Rights Reserved.</div>
+        <div class="footer-bottom-right">Service Dinamo &amp; Electrical Professional</div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="floating-wa">
+    <div class="floating-wa-tooltip">Konsultasi via WhatsApp</div>
+    <a href="https://wa.me/6281310673799?text=Halo%20Fatan%20Tehnik%20Elektro." class="floating-wa-btn" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.549 4.103 1.512 5.831L.057 23.25a.75.75 0 0 0 .914.914l5.516-1.454A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.65-.518-5.157-1.421l-.37-.219-3.83 1.009 1.012-3.744-.236-.386A9.95 9.95 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    </a>
+  </div>
+  <button id="back-to-top" aria-label="Kembali ke atas">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- IMAGE MODAL -->
+  <div id="img-modal" class="img-modal" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="img-modal-backdrop" id="modal-backdrop"></div>
+    <div class="img-modal-content">
+      <button class="img-modal-close" id="modal-close" aria-label="Tutup">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <img id="modal-img" src="" alt="" />
+      <div id="modal-caption">
+        <div class="modal-title" id="modal-title"></div>
+        <div class="modal-cat" id="modal-cat"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="project.js"></script>
+</body>
+</html>
