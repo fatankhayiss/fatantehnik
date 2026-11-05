@@ -1,5 +1,11 @@
 # ⚡ Fatan Tehnik Elektro — Website Company Profile
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-success?style=flat)](LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML-5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS-3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-2ea44f?style=flat&logo=github&logoColor=white)](https://fatankhayiss.github.io/fatantehnik/)
+
 Selamat datang di repository resmi website **Fatan Tehnik Elektro**. Website ini merupakan *company profile* dan media informasi digital interaktif untuk memperkenalkan profil usaha, layanan teknis, portofolio pengerjaan, serta sarana komunikasi langsung antara bengkel dengan calon pelanggan.
 
 > 🌐 **Kunjungi Website (Live Demo):**  
@@ -95,6 +101,12 @@ fatan-tehnik-elektro/
 - **WhatsApp**: [+62 813-1067-3799](https://wa.me/6281310673799)
 - **Email**: [fatantehnikelektro@gmail.com](mailto:fatantehnikelektro@gmail.com)
 - **Jam Operasional**: Senin – Sabtu (08.00 – 17.00 WIB)
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah [MIT License](LICENSE) — bebas digunakan, dikembangkan, dan dimodifikasi untuk keperluan edukasi maupun komersial.
 
 ---
 
