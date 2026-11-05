@@ -98,6 +98,7 @@ fatan-tehnik-elektro/
 - **Nama Usaha**: Fatan Tehnik Elektro
 - **Layanan**: Electrical, Mechanical & Rewinding Specialist
 - **Website**: [https://fatankhayiss.github.io/fatantehnik/](https://fatankhayiss.github.io/fatantehnik/)
+- **Lokasi Workshop**: [Google Maps (Fatan Tehnik Elektro)](https://maps.app.goo.gl/xUPP6LKZVyPegXkt9)
 - **WhatsApp**: [+62 813-1067-3799](https://wa.me/6281310673799)
 - **Email**: [fatantehnikelektro@gmail.com](mailto:fatantehnikelektro@gmail.com)
 - **Jam Operasional**: Senin – Sabtu (08.00 – 17.00 WIB)
