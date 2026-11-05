@@ -1,71 +1,101 @@
-# Fatan Tehnik Elektro - Company Profile
+# ⚡ Fatan Tehnik Elektro — Website Company Profile
 
-Ini adalah source code untuk website Company Profile dan Landing Page Fatan Tehnik Elektro, spesialis service dinamo, rewinding, trafo, generator, motor listrik, dan perangkat mechanical lainnya.
+Selamat datang di repository resmi website **Fatan Tehnik Elektro**. Website ini merupakan *company profile* dan media informasi digital interaktif untuk memperkenalkan profil usaha, layanan teknis, portofolio pengerjaan, serta sarana komunikasi langsung antara bengkel dengan calon pelanggan.
 
-## 🚀 Fitur Utama
-- **Desain Modern & Profesional**: Tampilan industrial workshop yang clean dan responsif.
-- **Pure Static (HTML/CSS/JS)**: Tidak memerlukan framework, build tools, atau database. Sangat ringan dan cepat.
-- **SEO Friendly**: Struktur HTML semantic dan meta tag yang dioptimalkan.
-- **WhatsApp Integration**: Floating button dan form kontak yang langsung terhubung ke WhatsApp.
-- **Modular**: Setiap halaman memiliki file CSS dan JS terpisah (sesuai request).
+> 🌐 **Kunjungi Website (Live Demo):**  
+> 👉 **[https://fatankhayiss.github.io/fatantehnik/](https://fatankhayiss.github.io/fatantehnik/)**
 
-## 📂 Struktur Direktori
+---
+
+## 📖 Tentang Website Ini
+
+Website ini dibuat khusus sebagai representasi digital bagi **Fatan Tehnik Elektro** — bengkel spesialis di bidang *electrical*, *mechanical*, dan *rewinding* (gulung dinamo) untuk kebutuhan industri, komersial, maupun rumah tangga.
+
+Dengan hadirnya website ini, pengunjung dan calon pelanggan dapat:
+- Mengenal lebih dekat profil, keahlian, dan dedikasi bengkel Fatan Tehnik Elektro.
+- Mempelajari rincian spesifikasi layanan teknis yang tersedia.
+- Melihat dokumentasi dan bukti portofolio hasil pengerjaan proyek servis.
+- Melakukan konsultasi dan pemesanan jasa dengan mudah dan cepat melalui integrasi pesan instan WhatsApp.
+
+---
+
+## 🛠️ Tentang Fatan Tehnik Elektro
+
+**Fatan Tehnik Elektro** berfokus pada solusi perbaikan, perawatan (*maintenance*), dan rewinding mesin-mesin elektro-mekanik dengan pengerjaan teliti, kawat tembaga berkualitas tinggi, pengujian bertahap, dan garansi hasil servis.
+
+### Layanan Utama:
+1. **Service Dinamo**: Perbaikan menyeluruh untuk dinamo kecil hingga dinamo industri (inspeksi, bongkar pasang, pembersihan, dan penggantian komponen).
+2. **Motor AC & DC**: Gulung ulang (*rewinding*) dan servis motor listrik 1 phase maupun 3 phase berbagai merk dan kapasitas (PK/HP).
+3. **Trafo & Generator**: Pengecekan insulasi, gulung ulang kumparan, penggantian oli trafo, hingga rekondisi generator/genset.
+4. **Pompa Air & Submersible**: Penanganan pompa industri, pompa transfer, submersible pump (penggantian mechanical seal, bearing, dan rewinding rotor/stator).
+5. **Jasa Bubut & Mechanical Repair**: Rekondisi shaft as aus, perbaikan rumah bearing, balancing dinamis, dan pekerjaan bubut mekanikal presisi.
+
+---
+
+## 📑 Struktur Halaman & Konten Website
+
+Website ini terdiri dari 5 halaman utama yang saling terhubung dengan navigasi yang rapi:
+
+| Halaman | File | Penjelasan Isi |
+| :--- | :--- | :--- |
+| **Beranda** | [`index.html`](index.html) | Halaman muka yang menyajikan ringkasan keunggulan bengkel, highlight layanan utama, alur kerja servis, statistik kepuasan klien, testimoni pelanggan, serta tombol kontak darurat WhatsApp. |
+| **Tentang Kami** | [`pages/tentang/tentang.html`](pages/tentang/tentang.html) | Profil latar belakang bengkel, visi & misi, nilai profesionalisme, komitmen penggunaan bahan kawat tembaga murni, dan garansi pengerjaan. |
+| **Layanan** | [`pages/layanan/layanan.html`](pages/layanan/layanan.html) | Penjelasan detail dan komprehensif tiap layanan teknis (lingkup pekerjaan, tahapan diagnosa, serta tombol konsultasi langsung per jenis layanan). |
+| **Project** | [`pages/project/project.html`](pages/project/project.html) | Galeri portofolio dokumentasi pengerjaan proyek riil (kondisi dinamo sebelum dan sesudah perbaikan, proses rewinding, hingga uji coba). |
+| **Kontak** | [`pages/kontak/kontak.html`](pages/kontak/kontak.html) | Saluran komunikasi interaktif yang mencakup nomor WhatsApp resmi, alamat email, jam operasional bengkel, form pesan langsung, dan embed peta Google Maps. |
+
+---
+
+## ✨ Fitur & Keunggulan Teknis Website
+
+- **⚡ Performa Ringan & Cepat**: Dibangun dengan *Pure Static Web Tech* (HTML5, CSS3, dan Vanilla JavaScript) tanpa dependensi library besar atau framework yang membebani loading.
+- **📱 Fully Responsive**: Tampilan fleksibel dan ergonomis di berbagai resolusi layar — mulai dari layar *smartphone*, tablet, laptop, hingga monitor desktop.
+- **💬 Direct WhatsApp Integration**: Tombol WhatsApp mengambang (*floating button*) serta form interaktif yang langsung memformat pesan konsultasi secara otomatis.
+- **🎨 Desain Modern Industrial**: Mengusung skema warna maskulin dan profesional (*Deep Industrial Blue* & *Engineering Amber/Orange*) yang mencerminkan ketegasan dunia teknik elektro.
+- **🔍 SEO & Meta Friendly**: Telah dilengkapi Open Graph metadata, semantic HTML, dan deskripsi halaman yang optimal untuk indeks mesin pencarian.
+
+---
+
+## 📁 Struktur Direktori Proyek
+
 ```text
-.
-├── index.html                  # Halaman Utama (Beranda)
+fatan-tehnik-elektro/
+├── index.html                  # Halaman Beranda (Landing Page)
+├── README.md                   # Dokumentasi repository
 ├── css/
-│   └── index.css               # CSS Global dan Halaman Utama
+│   └── index.css               # Gaya desain global dan halaman beranda
 ├── js/
-│   └── index.js                # JS Halaman Utama
+│   └── index.js                # Logika interaktif dan navigasi halaman beranda
 ├── assets/
-│   ├── images/                 # Direktori gambar placeholder
-│   └── icons/                  # Direktori ikon (jika diperlukan)
+│   ├── icons/                  # Logo bengkel dan favicon
+│   └── images/                 # Gambar dokumentasi layanan & workshop
 └── pages/
-    ├── tentang/
-    │   ├── tentang.html        # Halaman Tentang Kami
-    │   ├── tentang.css
-    │   └── tentang.js
-    ├── layanan/
-    │   ├── layanan.html        # Halaman Layanan
-    │   ├── layanan.css
-    │   └── layanan.js
-    ├── project/
-    │   ├── project.html        # Halaman Project / Gallery
-    │   ├── project.css
-    │   └── project.js
-    └── kontak/
-        ├── kontak.html         # Halaman Kontak & Lokasi
-        ├── kontak.css
-        └── kontak.js
+    ├── tentang/                # Halaman Tentang Kami (HTML, CSS, JS)
+    ├── layanan/                # Halaman Katalog Layanan (HTML, CSS, JS)
+    ├── project/                # Halaman Galeri Portofolio Proyek (HTML, CSS, JS)
+    └── kontak/                 # Halaman Kontak & Lokasi Bengkel (HTML, CSS, JS)
 ```
 
-## 🛠️ Cara Penggunaan (Development)
-Karena website ini 100% static HTML, CSS, dan JS, Anda bisa menjalankannya langsung di browser tanpa server lokal. 
-1. Buka folder project.
-2. Double-click file `index.html` untuk membukanya di browser.
-3. (Opsional) Jika menggunakan VS Code, Anda bisa menggunakan ekstensi **Live Server** untuk auto-reload saat mengedit file.
+---
 
-## 📝 Hal Yang Perlu Disesuaikan Sebelum Publish
-Sebelum website diunggah (publish) ke internet, ada beberapa hal yang wajib diganti dengan data asli Anda:
+## 💻 Teknologi yang Digunakan
 
-1. **Nomor WhatsApp**:
-   Cari teks `6281234567890` (atau `+62 812-3456-7890`) di semua file `.html` dan `.js`, lalu ganti dengan nomor WhatsApp aktif Fatan Tehnik. Pastikan format link menggunakan kode negara (contoh: `628...` tanpa tanda `+` untuk URL `wa.me`). Khususnya di file `pages/kontak/kontak.js`.
-2. **Alamat Email**:
-   Ganti `info@fatantehnik.com` dengan email perusahaan.
-3. **Alamat Lokasi & Google Maps**:
-   Di file `pages/kontak/kontak.html`, cari `[Nama Jalan], [Kota]` dan ganti dengan alamat lengkap. Selain itu, temukan tag `<iframe src="">` dan masukkan URL embed dari Google Maps bengkel Anda ke dalam atribut `src`.
-4. **Gambar (Assets)**:
-   Gambar saat ini menggunakan fallback warna (placeholder) jika file gambar asli tidak ditemukan. 
-   - Masukkan foto-foto bengkel ke `assets/images/workshop/`
-   - Masukkan foto-foto layanan ke `assets/images/services/`
-   - Masukkan foto-foto project ke `assets/images/projects/`
-   - Ganti atribut `src` pada tag `<img>` di HTML jika nama file foto Anda berbeda.
+- **HTML5**: Struktur semantik dokumen web.
+- **CSS3**: Layouting fleksibel (CSS Flexbox & CSS Grid), animasi transisi, dan *custom CSS variables*.
+- **JavaScript (Vanilla JS)**: Interaksi menu navigasi responsif, animasi scroll reveal, dan form handler WhatsApp.
+- **GitHub Pages**: Media hosting statis untuk deployment website secara online.
 
-## 🌐 Deployment (Cara Hosting)
-Karena website ini murni statis, Anda bisa menghostingnya secara **gratis** di berbagai platform:
-- **GitHub Pages**: Upload repository ke GitHub dan aktifkan GitHub Pages.
-- **Netlify**: Drag & drop folder project ke Netlify Drop atau hubungkan via GitHub.
-- **Vercel**: Hubungkan repository GitHub Anda ke Vercel untuk auto-deployment.
-- **Shared Hosting**: Jika Anda sudah memiliki domain (misal: *fatantehnik.com*), cukup upload semua file ke folder `public_html` di cPanel hosting Anda.
+---
 
-*Website ini menggunakan relative paths (`../` dan `../../`) sehingga akan berfungsi di subdirektori manapun atau di custom domain tanpa perlu pengaturan routing.*
+## 📞 Informasi & Kontak Bengkel
+
+- **Nama Usaha**: Fatan Tehnik Elektro
+- **Layanan**: Electrical, Mechanical & Rewinding Specialist
+- **Website**: [https://fatankhayiss.github.io/fatantehnik/](https://fatankhayiss.github.io/fatantehnik/)
+- **WhatsApp**: [+62 813-1067-3799](https://wa.me/6281310673799)
+- **Email**: [fatantehnikelektro@gmail.com](mailto:fatantehnikelektro@gmail.com)
+- **Jam Operasional**: Senin – Sabtu (08.00 – 17.00 WIB)
+
+---
+
+&copy; 2026 Fatan Tehnik Elektro. All Rights Reserved.
